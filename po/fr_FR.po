@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: opencpn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-15 14:10-0300\n"
+"PO-Revision-Date: 2023-11-09 21:22\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: opencpn\n"
+"X-Crowdin-Project-ID: 49843\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /plugins/statusbar_pi/po/statusbar_pi.pot\n"
+"X-Crowdin-File-ID: 121\n"
+
+#: src/statusbar_pi.cpp:165
+msgid "StatusBar"
+msgstr "Barre d'état"
+
+#: src/statusbar_pi.cpp:170
+msgid "StatusBar Plugin is an optional replacement for the builtin statusbar"
+msgstr "StatusBar met en place une barre d'état optionnelle, en remplacement de la barre d'état standard"
+
+#: src/statusbar_pi.cpp:175
+msgid "StatusBar plugin replaces builtin statusbar\n"
+"The builtin status bar (disable from the User Interface tab)\n"
+"is very limited in it's configuration options and can be very difficult to read.\n\n"
+"The statusbar plugin improves on some of these difficulties.\n"
+"  Best used with OpenGL enabled (requires some basic OpenGL extensions).\n"
+msgstr "Le complément \"Barre de statut\" remplace la barre de statut intégrée d'OpenCPN\n"
+"La barre de statut intégrée (désactivable dans les \"options\" d'OpenCPN) est limitée en terme de configuration et peu lisible.\n\n"
+"Le complément \"Barre de statut\" apporte des améliorations à ces possibilités.\n"
+"Ce complément est utilisable avec OpenGL \"ON\" (car il requiert des extensions propres à OpenGL)\n"
+
+#: src/statusbar_pi.cpp:204
+msgid "Display String can include formats eg: \"%03.0E\" gives ship longitude the format specifier 03.0 gives how many places to round to, and to use leading 0's etc..\n"
+"The following are formats:\n"
+"%A ship lat degrees    %B ship lat minutes   %C ship lat seconds  %D ship N/S\n"
+"%E ship lon degrees    %F ship lon minutes   %G ship lon seconds  %H ship E/W\n"
+"%I ship sog            %J ship cog           %K ship heading      %L ship heading rate\n"
+"%O cursor lat degrees    %P cursor lat minutes   %Q cursor lat seconds   %R cursor N/S\n"
+"%S cursor lon degrees    %T cursor lon minutes   %U cursor lon seconds   %V cursor E/W\n"
+"%W from ship bearing to cursor\n"
+"%X distance to cursor mercator  %Y distance to cursor great circle  %Z chart scale\n"
+"%a viewport orientation angle\n"
+"%f frames rendered per second\n"
+"%d Date    %t Time    %z Time Zone\n"
+"%% print a percent"
+msgstr "La chaîne d’affichage propose des formatages adaptables\n"
+"\n"
+"- Par exemple : « %03.0E » donne une longitude du bateau avec comme spécificateur de format 03.0 qui précise l'arrondi, mettre le 0 devant etc...\n"
+"- On peut ajouter des mots ou des caractères comme ° ou ' judicieusement placés\n\n"
+"Liste des affichages possibles : \n"
+"- Bateau, latitude : %A Degré %B Minutes %C Secondes  %D Nord/Sud : N/S\n"
+"- Bateau, longitude : %E Degrés %F Minutes %G Secondes %H Est/ouest : E/W\n"
+"- Bateau : %I SOG Vitesse fond  %J COG Cap fond %K Cap Mag %L Vitesse de rotation (°/s)\n"
+"- Pointeur de souris, latitude : %O Degrés %P Minutes %Q Secondes %R Nord/Sud : N/S\n"
+"- Pointeur de souris, longitude : %S Degrés %T Minutes %U Secondes %V Est/ouest : E/W\n"
+"- %W Direction vers le pointeur de souris, vu du bateau\n"
+"- Distance du bateau au pointeur de souris : %X Loxodromie (Mercator) %Y Orthodromie\n"
+"- %Z Echelle des cartes\n"
+"- %a Angle d'orientation de la carte\n"
+"- %f Nombre d'Images par seconde\n"
+"- %d Date %t Heure %z Fuseau horaire \n"
+"- %% Afficher un pourcentage"
+
+#: src/statusbar_pi.cpp:218
+msgid "Statusbar Information"
+msgstr "Information"
+
+#: src/StatusbarUI.cpp:22
+msgid "Current Color Scheme"
+msgstr "Etat actuel des  couleurs"
+
+#: src/StatusbarUI.cpp:35
+msgid "Color"
+msgstr "Couleur"
+
+#: src/StatusbarUI.cpp:42 src/StatusbarUI.cpp:61
+msgid "Transparency"
+msgstr "Transparence"
+
+#: src/StatusbarUI.cpp:51
+msgid "Invert Background"
+msgstr "Inverser le fond"
+
+#: src/StatusbarUI.cpp:54
+msgid "Background Color"
+msgstr "Couleur du fond"
+
+#: src/StatusbarUI.cpp:68
+msgid "Blur"
+msgstr "Flou"
+
+#: src/StatusbarUI.cpp:85
+msgid "X Position"
+msgstr "X Position"
+
+#: src/StatusbarUI.cpp:92
+msgid "Y Position"
+msgstr "Y Position"
+
+#: src/StatusbarUI.cpp:99
+msgid "Font"
+msgstr "Police de caractères"
+
+#: src/StatusbarUI.cpp:107
+msgid "Select"
+msgstr "Sélectionner"
+
+#: src/StatusbarUI.cpp:107
+msgid "Default"
+msgstr "Par défaut"
+
+#: src/StatusbarUI.cpp:107
+msgid "OwnShip"
+msgstr "Bateau de l'utilisateur"
+
+#: src/StatusbarUI.cpp:107
+msgid "Multiline"
+msgstr "Multiligne"
+
+#: src/StatusbarUI.cpp:113
+msgid "Info"
+msgstr "Info"
+
+#: src/StatusbarUI.cpp:119
+msgid "Display String"
+msgstr "Chaine d'affichage"
+
+#: src/StatusbarUI.cpp:132
+msgid "About Author"
+msgstr "Au sujet de l'auteur"
+
+#: src/StatusbarUI.h:80
+msgid "Status Bar Preferences"
+msgstr "Préférences"
+
